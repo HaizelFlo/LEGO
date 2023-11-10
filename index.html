@@ -1,0 +1,312 @@
+<html lang="es"><head>
+  <meta charset="UTF-8">
+  <title>LEGOBRICKE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpg" href="https://assets.lego.com/logos/v4.5.0/brand-lego.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div id="introduction" style="height: 0px;">
+
+	<div class="image-container">
+		<img class="banner-logo" src="assets/img/LOGOLEBRIJE.png" alt="banner" title="banner">
+    <div class="loader_">
+      <div class="loaderBar"></div>
+    </div>
+	</div>
+</div>
+
+<div class="container-fluid">
+
+
+  <div class="description panel orange" id="orange">
+    <div>
+        <p class="shadow text-home">¿Qué pasa cuando mezclas <br>la imaginación mexicana y LEGO?</p>
+        <div class="hero-mouse"></div>  
+    </div>
+  </div>
+
+  <section class="panel pink">
+    <div style="padding:56.25% 0 0 0;position:relative;">
+      <iframe src="https://player.vimeo.com/video/882212821?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" 
+      allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width: 100%;height: 480px;margin: 3.5% auto;" title="LEGOBRIJES"></iframe>
+    </div>
+    <!--<a a href="#legobricke"><button class="call-action"> HAZ AQUÍ <br> TU LEGOBRICKE </button></a>-->
+  </section>
+  
+  <section class="panel blue" id="legobricke">
+    <div class="container-fluid">
+
+      <!-----------------DRAG AND DROP DESKTOP--------------------->
+      <div class="row align-items-center desktop" >
+
+        <p class="text-box shadow-2" id="alebrije">¿Qué animales quieres mezclar en tu ALEBRICKE?</p>
+        <div class="col-lg-7 col-md-6 col-sm-12 p-5">
+          
+        <div id="arrastrables" class="zona-arrastables" ondrop="drop(event)" ondragleave="removeDrop(event)">
+            <div class="row">
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal1" src="assets/img/animales/ARDILLA.png" ddraggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="ARDILLA">
+              </div>
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal2" src="assets/img/animales/BUHO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="BUHO">
+              </div>
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal3" src="assets/img/animales/DINOSAURIO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="DINOSAURIO">
+              </div>
+          
+              <div class="w-100"></div>
+  
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal4" src="assets/img/animales/CONEJO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="CONEJO">
+              </div>
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal5" src="assets/img/animales/LEON.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="LEON">
+              </div>
+             <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal6" src="assets/img/animales/ZORRO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="ZORRO">
+              </div>
+              
+              <div class="w-100"></div>
+  
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal7" src="assets/img/animales/PATO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="PATO">
+              </div>
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal8" src="assets/img/animales/PEZ.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="PEZ">
+              </div>
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal9" src="assets/img/animales/UNICORNIO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="UNICORNIO">
+              </div>
+  
+              <div class="w-100"></div>
+  
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal10" src="assets/img/animales/PULPO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="PULPO">
+              </div>
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal11" src="assets/img/animales/SAPO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="SAPO">
+              </div>
+              <div class="col-lg-4 col-sm-4 arrastrable" draggable="true">
+                <img id="animal12" src="assets/img/animales/COCODRILO.png" draggable="true" ondragstart="drag(event)" class="img-fluid alebrije" name="COCODRILO">
+              </div>
+            </div>
+
+            </div>
+          
+        </div>
+
+        <div class="col-lg-5 col-md-6 col-sm-12 d-flex">
+
+          <div onmouseleave="hiddenDiv()">
+            <p class="txt-hide">Arrastra aquí tus dos especies favoritas y descubre la magia</p>
+            <img src="assets/img/legos.png" class="img-fluid" id="elemento-img">
+            <img src="assets/img/legos.png" class="img-fluid" id="elemento-img2">
+          </div>
+          
+          <div id="contenedorGeneral">
+            <!-- Otros elementos o contenido si es necesario -->
+          
+            <div id="div1" class="zona-arrastables" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <!-- Contenido de div1 -->
+            </div>
+          
+            <div id="div2" class="zona-arrastables2" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <!-- Contenido de div2 -->
+            </div>
+          
+          </div>
+          
+          <button id="create-aleb" class="create-alebije" onclick="createAlegrije()" style="display: none;" draggable="false"><img class="img-fluid" src="assets/img/crear.png"  alt=""></button>
+          <button id="remove-images" onclick="removeImages(['div1', 'div2'])" style="display: none;" draggable="false"><img class="img-fluid" src="assets/img/quitar.png" alt=""></button>
+        </div>
+      </div>
+      <!-----------------DRAG AND DROP DESKTOP END--------------------->
+
+
+    </div>
+  </section>
+
+  <section class="panel pink-2" id="boxLoading" style="display: none;">
+    
+    <div class="loader_bg">
+      <div class="loader">
+        <img src="assets/img/flor3.gif" alt="">
+      </div>
+      <p class="load-text">Pronto descubrirás a tu ALEBRICKE</p>
+   </div>
+
+
+    <div class="container-fluid pink-final" id="final">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-sm-12">
+          <img class="img-fluid" id="result" width="500" height="500">
+        </div>
+        
+        <div class="col-lg-6 col-sm-12">
+            <p class="txt-final shadow-3">Comparte tu creación</p>
+            <button class="btnDescargarAdjunto"><img src="assets/img/DESCARGA.png" class="img-fluid call-action-end"></button>
+            <button class="scroll-blue" onclick="limpiarYScroll()"><img src="assets/img/crea-otro.png" class="img-fluid"></button>
+            
+                <p class="txt-final-2 shadow-3">Ahora hazlo real</p>
+                <img src="assets/img/caja.png" class="img-fluid caja-lego">
+                <a a="" href="https://www.lego.com/es-mx/themes/classic" target="_blank"><img src="assets/img/comprar.png" class="img-fluid call-action-3"></a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="footer" id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-2 col-xs-2">
+                  <img src="assets/img/logo-footer.png" class="img-fluid">
+              </div>
+             
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <ul class="social">
+                      <li> <a href="https://www.facebook.com/LEGOMexico/?brand_redir=6665038402" target="_blank"><i class="fa fa-facebook"></i> </a> </li>
+                      <li> <a href="https://twitter.com/LEGO_Group" target="_blank"><i class="fa fa-twitter"></i> </a> </li>
+                      <li> <a href="https://www.instagram.com/lego" target="_blank"><i class="fa fa-instagram"></i> </a> </li>
+                      <li> <a href="https://www.youtube.com/user/LEGO?app=desktop" target="_blank"><i class="fa fa-youtube"></i> </a> </li>
+                  </ul>
+              </div>
+          </div>
+          <!--/.row--> 
+      </div>
+      <!--/.container--> 
+  </div>
+  <!--/.footer-->
+</footer>
+
+<script>
+  function hiddenDiv() {
+   //console.log('La función hiddenDiv se está ejecutando.');
+   var elements = document.querySelectorAll('#elemento-img, #elemento-img2');
+   elements.forEach(function(element) {
+      if (element) {
+         element.style.display = 'none';
+      }
+   });
+}
+
+  function scrollToSectionByClass(className) {
+    var elements = document.getElementsByClassName(className);
+    if (elements.length > 0) {
+      elements[0].scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }
+
+function scrollToBottom() {
+  // Desplazar la ventana hacia abajo usando window.scrollTo
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth'
+  });
+}
+  
+  
+function createAlegrije() {
+  var xmlhttp = new XMLHttpRequest();
+  var url = "json-animales.json";
+
+  // Obtener los elementos IMG dentro de div1 y div2
+  var imagesDiv1 = document.getElementById('div1').getElementsByTagName('img');
+  var imagesDiv2 = document.getElementById('div2').getElementsByTagName('img');
+
+  // Verificar si hay al menos una imagen en cada div
+  if (imagesDiv1.length >= 1 && imagesDiv2.length >= 1) {
+    // Obtener los nombres (name) de las imágenes en div1 y div2
+    var animal1 = imagesDiv1[0].name;
+    var animal2 = imagesDiv2[0].name;
+
+    var nuevaImagen = new Image();
+
+    xmlhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        var myArr = JSON.parse(this.responseText);
+        for (let i = 0; i < 66; i++) {
+          var combinacion = myArr["Combinaciones"][i].Combinacion;
+          if (combinacion == animal1 + '+' + animal2) {
+            var imagenes = myArr["Combinaciones"][i].imagenes;
+            var folder = animal1 + '+' + animal2;
+          } else if (combinacion == animal2 + '+' + animal1) {
+            var imagenes = myArr["Combinaciones"][i].imagenes;
+            var folder = animal2 + '+' + animal1;
+          }
+        }
+
+        var random = Math.floor(Math.random() * imagenes) + 1;
+
+        var nuevaImagen = new Image();
+        nuevaImagen.src = folder + '/file' + random + '.png';
+
+        var loaderGif = new Image();
+        loaderGif.src = "assets/img/flor3.gif";
+
+        // Preload de la imagen principal
+        nuevaImagen.onload = function () {
+          var loaderGif = new Image();
+          loaderGif.src = "assets/img/flor3.gif";
+
+          // Preload de la imagen de carga
+          loaderGif.onload = function () {
+            $('#boxLoading').addClass('loading');
+            $('#result').attr('src', nuevaImagen.src);
+            $('#boxLoading').find('.loader').html(loaderGif);
+            setTimeout(() => {
+              $('#boxLoading').removeClass('loading');
+              scrollToBottom();
+            }, 3000);
+
+            $('#boxLoading').show();
+          };
+        };
+
+        nuevaImagen.src = folder + '/file' + random + '.png'; // Se carga la imagen principal
+      }
+    };
+
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+  } else {
+    console.error('Se requiere al menos una imagen en cada div.');
+  }
+}
+
+    function dragEnter(event) {
+      // Tu lógica cuando el elemento es arrastrado sobre el área de destino
+    }
+
+    function dragOver(event) {
+      // Tu lógica mientras el elemento está siendo arrastrado sobre el área de destino
+    }
+
+    function dragLeave(event) {
+      // Tu lógica cuando el elemento abandona el área de destino
+    }
+
+
+</script>
+
+
+<!-- partial -->
+  <script src="https://cdn.jsdelivr.net/npm/interactjs@1.10.11/dist/interact.min.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.4/js/v4-shims.js"></script> 
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
+  <script src="assets/js/script.js"></script>
+</body></html>

@@ -1,0 +1,278 @@
+{
+  "Combinaciones": [
+    {
+      "Combinacion": "ARDILLA+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "ARDILLA+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "BUHO+ARDILLA",
+      "imagenes": 2
+    }
+    ,
+    {
+      "Combinacion": "BUHO+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "BUHO+CONEJO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "BUHO+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "BUHO+PEZ",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "BUHO+PULPO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "BUHO+ZORRO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "CONEJO+ARDILLA",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "CONEJO+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "CONEJO+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "CONEJO+PEZ",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "CONEJO+PULPO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+UNICORNIO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+ARDILLA",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+BUHO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+CONEJO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+PULPO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+UNICORNIO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+ZORRO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "DINOSAURIO+PEZ",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+ARDILLA",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+BUHO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+CONEJO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+DINOSAURIO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+PEZ",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+PULPO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+SAPO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+UNICORNIO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "LEON+ZORRO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PATO+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PEZ+ARDILLA",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PEZ+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PEZ+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PULPO+ARDILLA",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PULPO+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PULPO+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "PULPO+PEZ",
+      "imagenes": 2
+    }
+    ,
+    {
+      "Combinacion": "SAPO+ARDILLA",
+      "imagenes": 2
+    }
+    ,
+    {
+      "Combinacion": "SAPO+BUHO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+COCODRILO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+CONEJO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+DINOSAURIO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+PATO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+PEZ",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+PULPO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+UNICORNIO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "SAPO+ZORRO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "UNICORNIO+ARDILLA",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "UNICORNIO+BUHO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "UNICORNIO+COCODRILO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "UNICORNIO+CONEJO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "UNICORNIO+PATO",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "UNICORNIO+PEZ",
+      "imagenes": 2
+    } ,
+    {
+      "Combinacion": "UNICORNIO+PULPO",
+      "imagenes": 2
+    }
+    ,
+    {
+      "Combinacion": "UNICORNIO+ZORRO",
+      "imagenes": 2
+    }
+    ,
+    {
+      "Combinacion": "ZORRO+ARDILLA",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "ZORRO+COCODRILO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "ZORRO+CONEJO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "ZORRO+PATO",
+      "imagenes": 2
+    },
+    {
+      "Combinacion": "ZORRO+PEZ",
+      "imagenes": 2
+    }
+    ,
+    {
+      "Combinacion": "ZORRO+PULPO",
+      "imagenes": 2
+    }
+  ]
+}
